@@ -1,0 +1,22 @@
+{
+    "name": "yuutube-auto",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "build": "parcel build src/index.html --public-url ./",
+        "start": "parcel src/index.html",
+        "deploy": "npm run build && npx firebase-tools@latest deploy"
+    },
+    "dependencies": {
+        "firebase": "^10.1.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-youtube": "^10.1.0",
+        "sanitize-html": "^2.11.0"
+    },
+    "devDependencies": {
+        "events": "^3.3.0",
+        "parcel": "^2.9.3",
+        "process": "^0.11.10"
+    }
+}
