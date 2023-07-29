@@ -150,6 +150,7 @@ const App = () => {
                         width: '100%',
                         height: '100%',
                         playerVars: {
+                            // https://developers.google.com/youtube/player_parameters#Parameters
                             autoplay: 1,
                             fs: 0,          // <-- Disable fullscreen because we have our own, which supports staying fullscreen when switching videos
                         }
